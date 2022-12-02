@@ -23,7 +23,7 @@
 		<artifactId>openid-connect-parent</artifactId>
 		<groupId>org.mitre</groupId>
 		<version>1.3.5-SNAPSHOT</version>
-		<relativePath>..</relativePath>
+		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<artifactId>openid-connect-common</artifactId>
 	<description>OpenID Connect Common modules</description>

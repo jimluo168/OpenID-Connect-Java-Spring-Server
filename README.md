@@ -29,3 +29,19 @@ The authors and key contributors of the project include:
 
 
 Licensed under the Apache 2.0 license, for details see `LICENSE.txt`. 
+
+
+## Build with Maven
+
+maven install to local.
+
+```sh
+mvn clean install -DskipTests -Dmaven.javadoc.skip=true
+```
+
+Run the embedded Jetty Server
+
+```sh
+cd openid-connect-server-webapp
+mvn jetty:run-war
+```
